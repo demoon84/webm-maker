@@ -7,31 +7,21 @@
     "bin",
     "examples",
     "src",
-    "README.md",
-    "LICENSE"
+    "README.md"
   ],
   "bin": {
     "webm-maker": "bin/webm-maker.js"
   },
   "scripts": {
-    "check": "npm test",
-    "prepublishOnly": "npm test",
     "test": "node ./scripts/smoke-test.js"
   },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/demoon84/webm-maker.git"
   },
-  "bugs": {
-    "url": "https://github.com/demoon84/webm-maker/issues"
-  },
-  "homepage": "https://github.com/demoon84/webm-maker#readme",
   "keywords": [
     "webm",
     "video",

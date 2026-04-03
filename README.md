@@ -335,5 +335,3 @@ npm test
 ```
 
 Publish from GitHub by pushing a tag that matches `v*`.
-
-See [`PUBLISHING.md`](/Users/demoon/Documents/project/webm-maker/PUBLISHING.md) for the GitHub and npm release steps.
