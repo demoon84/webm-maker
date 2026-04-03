@@ -1,6 +1,6 @@
 {
   "name": "webm-maker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert PNG frame sequences or MP4 video to WebM via CLI or Node.js",
   "main": "src/index.js",
   "files": [
