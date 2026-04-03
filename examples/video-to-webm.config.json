@@ -1,0 +1,8 @@
+{
+  "from": "./input/video.mp4",
+  "to": "./output/video.webm",
+  "crf": 32,
+  "bitrate": "0",
+  "speed": 1,
+  "audioBitrate": "128k"
+}

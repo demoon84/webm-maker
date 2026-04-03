@@ -1,0 +1,8 @@
+{
+  "from": "./frames",
+  "to": "./output/sequence.webm",
+  "fps": 24,
+  "crf": 30,
+  "bitrate": "0",
+  "speed": 1
+}

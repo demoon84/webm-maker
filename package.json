@@ -1,0 +1,47 @@
+{
+  "name": "webm-maker",
+  "version": "1.0.0",
+  "description": "Convert PNG frame sequences or MP4 video to WebM via CLI or Node.js",
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "examples",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "webm-maker": "bin/webm-maker.js"
+  },
+  "scripts": {
+    "check": "npm test",
+    "prepublishOnly": "npm test",
+    "test": "node ./scripts/smoke-test.js"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demoon84/webm-maker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/demoon84/webm-maker/issues"
+  },
+  "homepage": "https://github.com/demoon84/webm-maker#readme",
+  "keywords": [
+    "webm",
+    "video",
+    "ffmpeg",
+    "png sequence",
+    "mp4",
+    "cli",
+    "converter"
+  ],
+  "email": "demoon84@gmail.com",
+  "author": "문경태(kyung tae Moon)",
+  "license": "MIT"
+}
